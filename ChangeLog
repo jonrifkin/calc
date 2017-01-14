@@ -1,0 +1,8 @@
+2007-10-20 1.1
+  Fixed 'segmentation' fault that occured when the program was
+  ended by CTRL-D.
+2014-07-14 1.2
+  Fixed compilation warnings having to do with broken printf format codes.
+   ' %08s '   was changed to ' %-8s '
+  and  
+   ' %PI %%E' was changed to ' %%PI  %%E'

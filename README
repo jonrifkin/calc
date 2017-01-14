@@ -1,5 +1,0 @@
-2007-10-20
-Calc is a simple command line calculation program.
-
-It can use 'readline' functionality of the libraries are installed, but
-they are not required.

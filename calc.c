@@ -57,6 +57,7 @@ void PrintNumber (double);
 void PrintHelp (void);
 void PrintGreeting (void);
 void ListVariables (void);
+int  IsComment (char *, char *);
 
 
 
@@ -80,7 +81,7 @@ Main Function
 ************************************************************************
 */
 
-#pragma argsused
+int 
 main (int argc, char *argv[]) {
    double Result;
    char *InputString;
